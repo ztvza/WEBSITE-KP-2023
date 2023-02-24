@@ -1,0 +1,41 @@
+.main__cards {
+    text-align: center;
+    margin:  220px 0 100px 0;
+}
+
+.h2__workout {
+    margin-bottom: 60px;
+    font-size: 34px;
+}
+
+.cards__workout {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: #9e9e9e96;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.-last {
+    margin-right: 0px;
+}
+
+@media screen and ( max-width: 930px ) {
+    .cards__workout {
+        display: inline-block;
+    }
+    .card {
+        margin: 0 0 20px 0;
+        width: 400px;
+    }
+}
+@media screen and ( max-width: 768px ){
+    .main__cards {
+        margin-top: 100px;
+    }
+}
