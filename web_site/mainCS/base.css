@@ -1,0 +1,17 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+}
+
+
