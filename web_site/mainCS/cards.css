@@ -1,31 +1,38 @@
 .main__cards {
     text-align: center;
-    margin:  220px 0 100px 0;
+    margin:  240px 0 100px 0;
 }
 
 .h2__workout {
+    text-align: center;
     margin-bottom: 60px;
-    font-size: 34px;
+    font-size: 40px;
 }
 
 .cards__workout {
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 .card {
     width: 300px;
-    height: 500px;
-    background-color: #dfdfdf96;
+    border: solid 2px black;
     margin-right: 20px;
-    border-radius: 10px;
     text-align: left;
     overflow: hidden;
+    transition: 0.8s;
+    text-align: center;
+    /*border: solid 5px black;*/
+}
+
+.card:hover {
+    transform: scale(1.03);
 }
 
 .card__img {
-    width: 450px;
-    height: 270px;
+    width: 400px;
+    height: 150px;
 }
 
 .card__container {
@@ -36,22 +43,20 @@
     ont-weight: 700;
     font-size: 25px;
     margin-bottom: 5px;
-    color: #222222;
 }
 
 .cards__text {
     line-height: 28px;
-    color: #222222;
-    opacity: 0.7;
 }
 
 .button__card {
+    color: white;
     height: 50px;
     width: -webkit-fill-available;
-    margin: 0 20px;
-    border: 0px;
-    border-radius: 5px;
-    background-color: rgba(71, 55, 255, 0.34);
+    margin: 20px 20px;
+    border: solid 2px black;
+    font-size: 22px;
+    background-color: black;
 }
 
 .-last {

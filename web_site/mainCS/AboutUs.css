@@ -1,0 +1,89 @@
+.gum_logo {
+    width: 850px;
+    margin-bottom: 250px;
+}
+
+.logo_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gum_logo_text {
+    width: 800px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.left_developer_card {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cards_developer {
+    /*margin-top: 250px;*/
+}
+
+.developer_card {
+    width: 630px;
+    height: 320px;
+    background-color: #4737ff;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-image {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 130px;
+    height: 130px;
+    border: solid 3px white;
+    margin-left: 30px;
+}
+
+.profile_img {
+    height: 114%;
+    width: 101%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile_text {
+    width: 370px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cards_developer_name {
+    color: white;
+    font-size: 24px;
+    width: 100px;
+    text-shadow: 2px 2px #4737ff;
+}
+
+.developer_about {
+    margin-top: 5px;
+    color: white;
+}
+
+.back_card {
+    background-color: #F96241;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 5px white;
+    margin-top: 7px;
+}

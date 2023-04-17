@@ -1,13 +1,31 @@
 .main {
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.-aboutSec {
+    margin-top: 100px;
 }
 
 .about__slogan {
     font-style: normal;
-    font-size: 60px;
+    font-size: 120px;
     line-height: 70px;
-    color: #F96241;
     width: 550px;
+    text-shadow: 4px 4px #4737ff;
+    margin-bottom: 40px;
+}
+
+.hero__rot {
+    font-style: normal;
+    font-size: 140px;
+    line-height: 70px;
+    color: #4737ff;
+    transform:rotate(-90deg);
+    transform-origin: top left;
+    text-shadow: 5px 5px #F96241;
+    margin: 0px;
+    width: 370px;
+    transform-origin: 285px 238px;
 }
 
 .about__info {
@@ -39,18 +57,29 @@
     font-size: 17px;
 }
 
-.-blue {
+.button__blue {
     background-color: #4737FF;
     border: 2px solid #4737FF;
-    margin-top: 50px;
+    margin-top: 110px;
     letter-spacing: 3px;
+    width: 270px;
+    height: 50px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 17px;
 }
 
-.-white {
+.button__white {
     background-color: white;
     border: 2px solid #4737FF;
     color: #4737FF;
     letter-spacing: 3px;
+    width: 270px;
+    height: 50px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    font-size: 17px;
 }
 
 .-black {
@@ -62,12 +91,29 @@
     margin-bottom: 10px;
 }
 
-.-white {
-
+.button__white:hover {
+    transform: scale(1.1);
 }
 
-.button:hover {
+.button__blue:hover {
     transform: scale(1.1);
+}
+
+.hero__info {
+    margin-left: 250px;
+}
+
+.info__text {
+    width: 500px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.hero {
+    margin-bottom: 200px;
 }
 
 @media screen and ( max-width: 930px ){
@@ -81,20 +127,14 @@
     .about__info {
         width: auto;
     }
-}
-
-@media screen and ( max-width: 767px ){
-    .-blue {
-        margin-bottom: 10px;
+    .info__text {
+        width: 350px;
     }
-    .about__slogan {
-        width: auto;
+    .main__cards {
+        margin: 170px 0 100px 0;
     }
-    .about__info {
-        width: auto;
-    }
-    .-white {
-        display: block;
+    .h2__workout {
+        margin-bottom: 30px;
     }
 }
 
@@ -112,11 +152,62 @@
     .main {
         margin-top: 50px;
     }
+    .hero__rot {
+        transform-origin: 238px 314px;
+    }
+    .info__text {
+        width: 350px;
+    }
+    .hero__info {
+        margin-left: 100px;
+    }
+    .about__info {
+        margin-top: 40px;
+    }
+
 }
 
 @media screen and ( max-width: 620px ) {
     .about__slogan {
         width: auto;
+    }
+    .hero__rot {
+        transform-origin: 234px 254px;
+        font-size: 120px;
+    }
+    .info__text {
+        width: 270px;
+    }
+    .hero__info {
+        margin-left: 150px;
+    }
+    .about__slogan {
+        font-size: 100px;
+    }
+}
+
+@media  screen and (max-width: 530px){
+    .hero__rot {
+        transform-origin: 380px 324px;
+        font-size: 120px;
+        width: 740px;
+    }
+    .info__text {
+        width: 200px;
+    }
+    .hero__info {
+        margin-left: 170px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .button__blue {
+        margin-right: 20px;
+        width: -webkit-fill-available;
+    }
+    .button__white {
+        margin-right: 20px;
+        width: -webkit-fill-available;
     }
 }
 

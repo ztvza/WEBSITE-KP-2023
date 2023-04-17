@@ -2,25 +2,33 @@
 <html lang="en" lang="ru">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <link rel="stylesheet" href="mainCS/container.css" type="text/css"/>
     <link rel="stylesheet" href="mainCS/cards.css" type="text/css"/>
     <link rel="stylesheet" href="mainCS/base.css" type="text/css"/>
+    <link rel="stylesheet" href="mainCS/color.css" type="text/css"/>
     <link rel="stylesheet" href="mainCS/header.css" type="text/css"/>
     <link rel="stylesheet" href="mainCS/burger.css" type="text/css"/>
+    <link rel="stylesheet" href="mainCS/footer.css" type="text/css"/>
     <link rel="stylesheet" href="mainCS/main.css" type="text/css"/><link rel="stylesheet" href="mainCS/main.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>WEB</title>
+    <title>GUM</title>
 </head>
 
 <body>
 <div class="container -header">
   <header class="header">
-    <h3 class="header__logo">GUM</h3>
+    <h3 class="header__logo" href="main.html">GUM</h3>
 
     <div class="header__menu">
-        <a class="menu_item -m">About us</a>
+        <a class="menu_item -m" href="AboutUs.html">About us</a>
         <a class="menu_item -m">Workout</a>
         <a class="menu__button -m -reg" href="SingUP.html">Sign up</a>
         <a class="menu__button -m " href="SingIN.html">Sign in</a>
@@ -38,12 +46,12 @@
   <div class="container">
       <div class="main__info">
         <div class="info__about">
-            <h1 class="about__slogan">Start training, make yourself stronger</h1>
+            <h1 class="about__slogan -orange">Start training, make yourself stronger</h1>
             <p class="about__info">Our site helps users find workouts that are right for them. We are not a fitness club or gym, and we do not sell sports equipment. But we can tell you how to choose the right type of fitness for you.</p>
         </div>
         <div class="info__button">
-            <button class="button -blue">SUBSCRIBE</button>
-            <button class="button -white">TRAINING</button>
+            <button class="button__blue">SUBSCRIBE</button>
+            <button class="button__white">TRAINING</button>
         </div>
       </div>
 
@@ -58,7 +66,7 @@
                             Суть данной тренировки заключаеся в том чтобы задейстованиии мышц нижней части тела.
                         </p>
                     </div>
-                    <button class="button__card"></button>
+                    <button class="button__card">Take this</button>
                 </div>
                 <div class="card -second">
                     <img class="card__img" src="https://media.tenor.com/KrnD0Afv2uQAAAAC/willem-dafoe-the-rock.gif">
@@ -68,7 +76,7 @@
                             Суть данной тренировки заключаеся в том чтобы задейстованиии мышц нижней части тела.
                         </p>
                     </div>
-                    <button class="button__card"></button>
+                    <button class="button__card">Take this</button>
                 </div>
                 <div class="card -last">
                     <img class="card__img" src="https://media.tenor.com/Pqr0qzKT2HEAAAAM/fitness-working.gif">
@@ -78,11 +86,68 @@
                             Суть данной тренировки заключаеся в том чтобы задейстованиии мышц нижней части тела.
                         </p>
                     </div>
-                    <button class="button__card"></button>
+                    <button class="button__card">Take this</button>
                 </div>
             </div>
+
+          <div class="cards__workout">
+              <div class="card -first">
+                  <img class="card__img" src="https://media.tenor.com/gxbLAii6IU8AAAAC/gay-exercise.gif">
+                  <div class="card__container">
+                      <h3 class="card__banner">Text hear</h3>
+                      <p class="cards__text">
+                          Суть данной тренировки заключаеся в том чтобы задейстованиии мышц нижней части тела.
+                      </p>
+                  </div>
+                  <button class="button__card">Take this</button>
+              </div>
+              <div class="card -second">
+                  <img class="card__img" src="https://media.tenor.com/KrnD0Afv2uQAAAAC/willem-dafoe-the-rock.gif">
+                  <div class="card__container">
+                      <h3 class="card__banner">Text hear</h3>
+                      <p class="cards__text">
+                          Суть данной тренировки заключаеся в том чтобы задейстованиии мышц нижней части тела.
+                      </p>
+                  </div>
+                  <button class="button__card">Take this</button>
+              </div>
+          </div>
       </div>
   </div>
 </section>
+
+<section class="hero">
+    <div class="container">
+        <h2 class="hero__rot">Start training</h2>
+        <div class="hero__info">
+
+            <p class="info__text">
+                We created this site to help people choose the most effective workouts that will help them improve their health. We do not advertise this or that product, but simply share information with you. On our site you will find information on how to choose the right workout, what type of load you need, what exercises are most effective, etc. All this will help you improve your health and figure.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer -blue_bc">
+    <div class="footer__separation -orange_bc"></div>
+    <div class="container">
+        <div class="footer__sides">
+        <h1 class="footer__slogan -white">Start training, make yourself stronger</h1>
+        <div class="footer__menu">
+            <a class="footer_item -white " href="AboutUs.html">About us</a>
+            <a class="footer_item -white">Workout</a>
+            <a class="footer_item -white" href="SingUP.html">Sign up</a>
+            <a class="footer_item -white" href="SingIN.html">Sign in</a>
+        </div>
+        </div>
+
+        <div class="footer__img">
+            <img class="footer_img__item" src="img/telegram_img.png">
+            <img class="footer_img__item -footer_dis" src="img/dis__img.png">
+            <img class="footer_img__item" src="img/vk_img.png">
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
