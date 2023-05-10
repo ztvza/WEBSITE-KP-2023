@@ -13,4 +13,9 @@ a {
     display: flex;
 }
 
+li {
+    display: list-item;
+    text-align: match-parent;
+}
+
 
