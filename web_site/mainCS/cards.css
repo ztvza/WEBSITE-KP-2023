@@ -24,12 +24,10 @@
     overflow: hidden;
     transition: 0.5s;
     text-align: center;
-    cursor: pointer;
-    /*border: solid 5px black;*/
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .card__img {
@@ -61,6 +59,7 @@
     border: solid 2px black;
     font-size: 22px;
     background-color: black;
+    cursor: pointer;
 }
 
 .-last {
@@ -69,11 +68,10 @@
 
 @media screen and ( max-width: 930px ) {
     .cards__workout {
-        display: inline-block;
+        display: grid;
     }
     .card {
         margin: 0 0 20px 0;
-        width: 400px;
     }
 }
 @media screen and ( max-width: 768px ){
