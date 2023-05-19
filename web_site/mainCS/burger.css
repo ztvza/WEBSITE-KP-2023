@@ -23,6 +23,10 @@
 .burger__item.-b {
     width: 34px;
 }
+.-center {
+    align-items: center;
+    justify-content: center;
+}
 
 @media screen and (max-width: 680px) {
     .header__burger {

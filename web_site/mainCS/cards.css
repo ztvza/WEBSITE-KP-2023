@@ -71,7 +71,8 @@
         display: grid;
     }
     .card {
-        margin: 0 0 20px 0;
+        width: auto;
+        margin: 10px 20px;
     }
 }
 @media screen and ( max-width: 768px ){

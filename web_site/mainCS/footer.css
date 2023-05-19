@@ -1,5 +1,9 @@
 .footer {
-    margin-top: 300px;
+    margin-top: 150px;
+}
+
+.-footer_about {
+    margin: 0px;
 }
 
 .footer__separation {
