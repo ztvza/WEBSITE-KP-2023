@@ -28,17 +28,24 @@
     <header class="header">
         <a class="header__logo -Cblack" href="main.html">GUM</a>
 
-        <div class="header__menu">
-            <a class="menu_item -m" href="AboutUs.html">About us</a>
-            <a class="menu_item -m" href="main.html">Workout</a>
-            <a class="menu__button -m -reg" href="SingUP.html">Sign up</a>
-            <a class="menu__button -m " href="SingIN.html">Sign in</a>
-        </div>
+        <ul class="header__menu">
+            <li class="menu_item -m" href="AboutUs.html">About us</li>
+            <li class="menu_item -m" href="main.html">Workout</li>
+            <li class="menu__button -m -reg" href="SingUP.html">Sign up</li>
+            <li class="menu__button -m " href="SingIN.html">Sign in</li>
+        </ul>
 
-        <div class="header__burger">
-            <div class="burger__item -t"></div>
-            <div class="burger__item -mi"></div>
-            <div class="burger__item -b"></div>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#">About us</a></li>
+                <li><a class="menu__item" href="#">Workout</a></li>
+                <li><a class="menu__item" href="#">Sign up</a></li>
+                <li><a class="menu__item" href="#">Sign in</a></li>
+            </ul>
         </div>
     </header>
     </div>

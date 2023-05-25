@@ -18,6 +18,7 @@ a {
 li {
     display: list-item;
     text-align: match-parent;
+    list-style-type: none;
 }
 
 
