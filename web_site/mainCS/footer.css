@@ -1,6 +1,9 @@
 .footer {
-    margin-top: 300px;
-    height: 500px;
+    margin-top: 150px;
+}
+
+.-footer_about {
+    margin: 0px;
 }
 
 .footer__separation {
@@ -84,7 +87,7 @@
         width: auto;
         height: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
 
@@ -98,8 +101,21 @@
 }
 
 @media screen and (max-width: 425px){
+    .footer__separation {
+        display: none;
+    }
+    .footer {
+        background-color: white;
+    }
     .footer__slogan {
-
+        color: #F96241;
+        text-shadow: 4px 4px #4737ff;
+    }
+    .footer_item {
+        color: #222222;
+    }
+    .footer__img {
+        display: none;
     }
 }
 
